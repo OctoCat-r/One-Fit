@@ -818,7 +818,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     setCurrTime();
     WOTimer.isFirstDelay = !WOPose.isVideoMode;
     resultRepElem.innerText = WOPose.counter.count;
-    resultCalElem.innerText = WOPose.counter.count * 0.32 ;
+    resultCalElem.innerText = WOPose.counter.count * 0.32;
     WOTimer.start(delayCB, finishDelayCB, timerCB, finishTimerCB);
     WOTimer.pause();
     webcamElem.pause();
